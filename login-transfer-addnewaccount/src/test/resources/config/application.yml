@@ -10,6 +10,6 @@ minium:
   config:
     searches:
       Minium Github:
-        - https://github.com/viltgroup/minium
+        - https://github.com/fcabrera-c
       Selenium:
         - https://selenium.dev/
