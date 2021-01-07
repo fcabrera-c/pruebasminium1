@@ -5,7 +5,7 @@ Given(/^we visit the "([^"]*)"$/, function(arg1) {
 
 Given(/^we put the good credential of the user$/, function() {
   $("#basic-url").sendKeys("DUARTE65");
-  browser.screenshot.asBytes();
+  browser.screenshot.asBytes("image/png");
   var timeUnits = require("minium/timeunits");
   $(":root").waitTime(3, timeUnits.SECONDS);
 });
